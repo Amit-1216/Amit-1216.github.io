@@ -100,6 +100,7 @@
             <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#top">Home</a></li>
             <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About me</a></li>
             <!-- <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#services">Services</a></li> -->
+            <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#hobbies">What I Love</a></li>
             <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#work">My Work</a></li>
             <li><a class='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contact me</a></li>
         </ul>
@@ -135,6 +136,7 @@
             <li><a href="#top" onclick="closeMenu()">Home</a></li>
             <li><a href="#about" onclick="closeMenu()">About me</a></li>
             <!-- <li><a href="#services" onclick="closeMenu()">Services</a></li> -->
+            <li><a href="#hobbies" onclick="closeMenu()">What I Love</a></li>
             <li><a href="#work" onclick="closeMenu()">My Work</a></li>
             <li><a href="#contact" onclick="closeMenu()">Contact me</a></li>
         </ul>
@@ -310,6 +312,155 @@
                 src="./assets/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block"></a>
     </div>
 
+    <!-- What I Love Section -->
+    <div id="hobbies" class="w-full px-[12%] py-10 scroll-mt-20">
+        <h4 class="text-center mb-2 text-lg font-Ovo">Beyond the data</h4>
+        <h2 class="text-center text-5xl font-Ovo">What I Love</h2>
+        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Beyond data, I’m drawn to ideas, reflection, and the deeper patterns 
+            that shape how we think and understand the world.</p>
+
+        <!-- Row 1: Philosophy (wide) + Spirituality -->
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 mb-6 w-full">
+
+            <!-- Philosophy — spans 2 cols -->
+            <div class="sm:col-span-4 h-full border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-default hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">🧠</span>
+                    <div>
+                        <p class="text-xs font-semibold tracking-widest uppercase text-purple-500 dark:text-purple-400">Most Favourite</p>
+                        <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Philosophy</h3>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm dark:text-white/80 leading-7 mb-4">
+                    If I had to name one obsession, it's this. I love tracing how thinkers across centuries and
+                    continents tried to answer the same hard questions — about existence, knowledge, ethics, and
+                    what it means to live well. East and West, ancient and modern.
+                </p>
+                <!-- <div class="flex flex-wrap gap-2">
+                    <span class="text-xs px-3 py-1 rounded-full bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 border border-purple-100 dark:border-purple-800">Socrates</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 border border-purple-100 dark:border-purple-800">Nietzsche</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 border border-purple-100 dark:border-purple-800">Marcus Aurelius</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 border border-purple-100 dark:border-purple-800">Ashtavakra</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 border border-purple-100 dark:border-purple-800">Lao Tzu</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300 border border-purple-100 dark:border-purple-800">& many more</span>
+                </div> -->
+            </div>
+
+            <!-- Spirituality -->
+            <div class="h-full border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-default hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">🪷</span>
+                    <div>
+                        <p class="text-xs font-semibold tracking-widest uppercase text-purple-500 dark:text-purple-400">Spirituality</p>
+                        <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Faith Through Reason</h3>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm dark:text-white/80 leading-7 mb-4">
+                    Spirituality that holds up to logic and inquiry — not blind faith, but deep rational exploration.
+                </p>
+                <ul class="space-y-2">
+                    <li class="flex items-start gap-2 text-sm text-gray-600 dark:text-white/80">
+                        <span class="mt-2 w-1.5 h-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
+                        <span><span class="font-semibold text-gray-700 dark:text-white">Buddhism</span> — impermanence &amp; the middle path</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-sm text-gray-600 dark:text-white/80">
+                        <span class="mt-2 w-1.5 h-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
+                        <span><span class="font-semibold text-gray-700 dark:text-white">Taoism</span> — flow, simplicity, the way of things</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-sm text-gray-600 dark:text-white/80">
+                        <span class="mt-2 w-1.5 h-1.5 rounded-full bg-purple-500 flex-shrink-0"></span>
+                        <span><span class="font-semibold text-gray-700 dark:text-white">Advaita Vedanta</span> — non-duality &amp; the nature of self</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Row 2: History (wide) + Cosmology -->
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 mb-6 w-full">
+
+            <!-- History -->
+            <div class="sm:col-span-2 h-full border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-default hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">⚔️</span>
+                    <div>
+                        <p class="text-xs font-semibold tracking-widest uppercase text-orange-500 dark:text-orange-400">History</p>
+                        <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Warriors, Empires &amp; India's Story</h3>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm dark:text-white/80 leading-7 mb-4">
+                    From ancient kingdoms to India’s independence, I’m drawn to the forces that shaped the subcontinent — power, belief, conflict, 
+                    and the ideals that leaders and warriors stood for.
+                </p>
+                <!-- <div class="flex flex-wrap gap-2">
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Maharana Pratap</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Chhatrapati Shivaji</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Sambhaji Maharaj</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Ashoka</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Chandragupta Maurya</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Pre-Independence</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-orange-50 dark:bg-orange-900/20 text-orange-600 dark:text-orange-300 border border-orange-100 dark:border-orange-800/50">Post-Independence</span>
+                </div> -->
+            </div>
+
+            <!-- Cosmology -->
+            <div class="h-full border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-default hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="text-3xl">🔭</span>
+                    <div>
+                        <p class="text-xs font-semibold tracking-widest uppercase text-blue-500 dark:text-blue-400">Science</p>
+                        <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Cosmology &amp; Physics</h3>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm dark:text-white/80 leading-7 mb-4">
+                    The universe at its grandest scale — black holes, the origin of time, the fabric of space.
+                    Questions that make everything else feel wonderfully small.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-300 border border-blue-100 dark:border-blue-800/50">Cosmology</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-300 border border-blue-100 dark:border-blue-800/50">Astrophysics</span>
+                    <span class="text-xs px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-300 border border-blue-100 dark:border-blue-800/50">Quantum</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3: Music & Poetry — full width -->
+        <div class="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-default hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-3xl">🎵</span>
+                <div>
+                    <p class="text-xs font-semibold tracking-widest uppercase text-rose-500 dark:text-rose-400">Music &amp; Words</p>
+                    <h3 class="text-xl font-semibold text-gray-700 dark:text-white">Ghazals, Music &amp; Poetries I Write</h3>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                    <p class="text-gray-600 text-sm dark:text-white/80 leading-7 mb-3">
+                        Old music — the kind where melody carried meaning and every lyric was crafted like verse.
+                        Ghazals and poetry, for me, are not just art forms but a way to understand emotions like longing, beauty,
+                        and silence in their purest form.
+                    </p>
+                    <!-- <div class="flex flex-wrap gap-2">
+                        <span class="text-xs px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-900/20 text-rose-600 dark:text-rose-300 border border-rose-100 dark:border-rose-800/50">Ghazals</span>
+                        <span class="text-xs px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-900/20 text-rose-600 dark:text-rose-300 border border-rose-100 dark:border-rose-800/50">Shayari</span>
+                        <span class="text-xs px-3 py-1 rounded-full bg-rose-50 dark:bg-rose-900/20 text-rose-600 dark:text-rose-300 border border-rose-100 dark:border-rose-800/50">Old Hindi / Urdu</span>
+                    </div> -->
+                </div>
+                <div>
+                    <p class="text-gray-600 text-sm dark:text-white/80 leading-7 mb-3">
+                        I write as well. When thoughts feel too complex for plain language, they naturally turn into verses. Through poetry,<br>
+                        I try to capture moments and feelings that are otherwise hard to express.
+                    </p>
+                    <div class="border-l-4 border-rose-300 dark:border-rose-700 pl-4 py-1 bg-rose-50/50 dark:bg-rose-900/10 rounded-r-lg">
+                        <!-- <p class="font-Ovo italic text-gray-700 dark:text-white/90 text-sm leading-7">
+                            कुछ ख़याल ऐसे होते हैं जो शब्दों में ही जीते हैं —
+                        </p> -->
+                        <p class="text-xs text-gray-400 dark:text-white/40 mt-1 tracking-wide">— Some thoughts are first felt deeply and then become words.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Contact me section -->
     <div id="contact"
         class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('./assets/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
@@ -343,7 +494,7 @@ I'm always open to discussions, collaborations, and opportunities.
   </a>
 
   <!-- Email — opens mail app -->
-  <a href="mailto:amitmaurya4419@gmail.com" class="social-icon-link" aria-label="Email">
+  <a href="/cdn-cgi/l/email-protection#84e5e9edf0e9e5f1f6fde5b0b0b5bdc4e3e9e5ede8aae7ebe9" class="social-icon-link" aria-label="Email">
     <svg viewBox="0 0 24 24" fill="currentColor">
       <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
     </svg>
